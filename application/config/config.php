@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = 'https://rhubarb-cobbler-3228.herokuapp.com/';
 
 /*
 |--------------------------------------------------------------------------
