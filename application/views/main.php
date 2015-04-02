@@ -34,7 +34,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script>
 
   $("#numeralForm input").on('input', function(){
-    $.get("/romannumeral/generate/" + this.value, function(numeral){
+    $.get("/numeral/generate/" + this.value, function(numeral){
       $("#numeralOutput").html(numeral);
     });
   });

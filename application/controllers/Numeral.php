@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class RomanNumeral extends CI_Controller {
+class Numeral extends CI_Controller {
 
   function __construct() {
     parent::__construct();
